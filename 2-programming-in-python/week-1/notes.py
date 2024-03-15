@@ -104,3 +104,57 @@ del myDict
 mySet = {1, 2, "Alok", "Shandilya"}
 print(type(mySet))      # <class 'set'>
 # print(mySet[0])       # 'set' object is not subscriptable
+
+################################################
+#           some inbuilt functions
+################################################
+# print(), len(), str(), int(), float(), input() etc.
+
+name = "Alok " \
+       "Shandilya"
+print(len(name))    # 14
+
+myString = "7"
+print(myString + str(9))     # 79 (type cast)
+myString = int(myString)     # type cast
+print(myString + 70)         # 77
+
+# implicit type conversion, float(myString) is explicit
+print(myString + float(myString))       # 14.0
+
+# type error (can only concatenate str to str not float)
+# print('7' + float(myString))
+
+# print("Where do you live? ")
+# location = input()  # eg. New Delhi
+# print("You live in " + location)      # You live in New Delhi
+
+################################################
+#           type casting
+################################################
+
+# int(): Converts a value to an integer.
+# str(): Converts a value to a string.
+# float(): Converts a value to a floating-point number.
+# ord(): Returns the Unicode code point of a character.
+# hex(): Converts an integer to a hexadecimal string.
+# oct(): Converts an integer to an octal string.
+# tuple(): Creates an immutable ordered collection.
+# set(): Creates an unordered collection of unique elements.
+# list(): Creates a mutable ordered collection.
+# dict(): Creates a mutable collection of key-value pairs (dictionary).
+
+print(ord("A"))     # 65
+print(10 == 10.0)   # True
+num1 = input("Enter num1: ")  # let 10
+num2 = input("Enter num2: ")  # let 20
+
+# 1020 (everything typed in input() is converted to string in python)
+print("The sum is :", num1 + num2)
+print("The sum is :", float(num1) + float(num2))  # The sum is : 30.0
+print("The sum is : " + str(float(num1) + float(num2)))  # The sum is : 30.0
+# implicit type conversion works on + operator with strings, integers, floats
+# but not in combination
+
+# perhaps, you could have casted with input
+# num1 = int(input("Enter num1: "))
