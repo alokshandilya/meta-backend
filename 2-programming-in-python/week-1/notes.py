@@ -158,3 +158,45 @@ print("The sum is : " + str(float(num1) + float(num2)))  # The sum is : 30.0
 
 # perhaps, you could have casted with input
 # num1 = int(input("Enter num1: "))
+
+################################################
+#         user input, console output
+################################################
+
+# print() syntax
+# print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+
+# print() Parameters
+# objects - object to the printed. * means may be more than one object
+# sep - objects are separated by sep. Default value: ' '
+# end - end is printed at last
+# file - must be an object with write(string) method.
+# (If omitted, sys.stdout will be used which prints objects on the screen)
+# flush - If True, the stream is forcibly flushed. Default value: False
+
+# sep, end, file, and flush are keyword arguments.
+# If you want to use sep argument, you have to use
+# print(*objects, sep = 'separator')
+# print(*objects, 'separator') is incorrect
+
+
+################################################
+#                 operators
+################################################
+
+# math operators
+
+# Addition (+)          ->   Adds two numbers.
+# Subtraction (-)       ->   Subtracts the right operand from the left operand.
+# Multiplication (*)    ->   Multiplies two numbers.
+# Division (/)          ->   remember, result is a float
+# Floor Division (//)   ->   eg. 15 // 2 gives 7, while -17 // 3 gives -6
+# Modulus (%)           ->   Returns the remainder of the division.
+# Exponentiation (**)   ->   left operand to the power of the right operand.
+# Assignment (=)        ->   Assigns a value to a variable.
+
+# logical operators
+
+# Logical AND (and)     ->   Returns True if both operands are true.
+# Logical OR (or)       ->   Returns True if at least one operand is true.
+# Logical NOT (not)     ->   Returns the opposite boolean value of the operand.
