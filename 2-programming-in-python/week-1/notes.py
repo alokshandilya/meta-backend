@@ -293,3 +293,48 @@ for i in range(1, 11):
 print()
 
 print("##########################")
+
+################################################
+#             enumerate()
+################################################
+
+# enumerate() function is used to iterate over a sequence while keeping track
+# of the index of the current item. It returns tuples containing both the index
+# and the corresponding element in the sequence.
+
+# enumerate() syntax : enumerate(iterable, start=0)
+# iterable: The sequence you want to iterate over
+# start (optional): The index value from which counting starts, defaults to 0
+
+# prints
+# index : 0, value : Alok
+# index : 1, value : MCA
+# index : 2, value : Tezpur University
+favourites = {"Alok", "MCA", "Tezpur University"}
+for index, item in enumerate(favourites):
+    print(f"index : {index}, value : {item}")       # format strings
+
+################################################
+#             pass statement
+################################################
+
+# pass statement is a null operation, serves as a placeholder where
+# syntactically some code is required but you don't want to execute
+# any instructions. It is often used as a stub when you are designing
+# a function or a class and want to leave the implementation for later.
+
+
+def my_function():
+    pass        # TODO: Add implementation later
+
+
+# in a conditional statement
+choise = input("Enter for False / True as (0 / 1): ")
+if int(choise):
+    pass        # TODO: Handle this case later
+else:
+    # Your actual code for the else case
+    print("condition is not met.")
+
+# pass is generally used for having a syntactically correct structure that you
+# can fill in with actual code later.
