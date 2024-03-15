@@ -101,6 +101,10 @@ Your code will be autograded and return feedback shortly on the "Grades" tab.
 You can also see your score in your Programming Assignment "My Submission" tab.
 <br> <br>
 
+## Screenshot
+
+![2024-03-16_01-51](https://github.com/alokshandilya/meta-backend/assets/77057272/0c9240bc-892e-4a53-a8ed-044eefd33d3c)
+
 ### Tips
 
 - Make sure that HTML tags are closed properly.
