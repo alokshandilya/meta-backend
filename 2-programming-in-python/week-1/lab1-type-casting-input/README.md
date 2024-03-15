@@ -28,7 +28,7 @@ used to solve data being inputted from an end user. Each exercise will ask you t
 
 - **Exercise 1:** Use explicit casting to apply the correct cast type
 
-- **Exercise 2:** Fix the script so it correctly outputs the bill total <br><br>
+- **Exercise 2:** Fix the script so it correctly outputs the bill total
 
 ## Exercise 1
 
