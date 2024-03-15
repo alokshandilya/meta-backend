@@ -242,3 +242,54 @@ match myAge:
         print("You can vote")
     case _:
         print("You can't vote")
+
+################################################
+#             looping constructs
+################################################
+# for, while loop
+# while loop, when to repeat a block of code as long as condition is true
+
+# range(start, stop, step)
+# start: The starting value of the sequence (optional, default is 0).
+# stop: The end value of the sequence (exclusive).
+# step: The step or increment between values (optional, default is 1).
+
+print("##########################")
+
+my_list = ["alok", 2, 3, 4, 5]
+for item in my_list:
+    print(item, end=" ")
+
+# for fixing output issues with end=" "
+# otherwise, output : alok 2 3 4 5 0 because of next loop's 0
+print()
+
+for i in range(5):      # range from 0 to 4
+    print(i, end=" ")
+print()
+
+for i in range(1, 6):   # range from 1 to 5 (exclusive)
+    print(i, end=" ")
+print()
+
+# print numbers from 1 to 5 using a while loop
+counter = 1
+while counter <= 5:
+    print(counter, end=" ")
+    counter += 1
+print()
+
+# use of break and continue in a loop
+# prints 1 and 3
+for i in range(1, 11):
+    if i == 5:
+        # break (terminates the loop prematurely)
+        break       # Exit the loop when is 5
+    if i % 2 == 0:
+        # continue (skips rest of code inside loop for current iteration and
+        # moves to next iteration)
+        continue    # Skip even numbers
+    print(i, end=" ")
+print()
+
+print("##########################")
