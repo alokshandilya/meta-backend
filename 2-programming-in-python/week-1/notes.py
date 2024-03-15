@@ -200,3 +200,45 @@ print("The sum is : " + str(float(num1) + float(num2)))  # The sum is : 30.0
 # Logical AND (and)     ->   Returns True if both operands are true.
 # Logical OR (or)       ->   Returns True if at least one operand is true.
 # Logical NOT (not)     ->   Returns the opposite boolean value of the operand.
+
+################################################
+#        conditional - if, elif, else
+################################################
+
+# control flow via conditional and loops
+
+myAge = input("Enter your age : ")
+myAge = int(myAge)
+
+if myAge >= 13 and myAge < 18:
+    print("You are a teen, but not eligible to vote")
+elif myAge >= 18:
+    isVoterCard = input("Do you have Voter ID card? (0 / 1) : ")
+    # bool(0) is False, bool(1) is True
+    # bool("1"), bool("0") are True (intput() accepts as string)
+    # bool("") is False
+    isBusy = input("Are you busy on election day? (0 / 1) : ")
+    if int(isVoterCard) and not int(isBusy):
+        print("You are eligible to vote, do vote in election")
+    elif int(isVoterCard) and int(isBusy):
+        print("Postpone your plans, and do vote on election day")
+    else:
+        print("You are eligible to vote, make your Voter ID card")
+elif myAge >= 1 and myAge < 13:
+    print("You are not a teen, grow old")
+else:
+    print("Invlid age")
+
+################################################
+#              switch / match
+################################################
+# match compares a value to several different conditions until one is met
+
+match myAge:
+    case 18:
+        print("Just turned 18, congratulations")
+        print("You can vote")
+    case n if n > 18:
+        print("You can vote")
+    case _:
+        print("You can't vote")
