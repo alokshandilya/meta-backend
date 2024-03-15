@@ -89,3 +89,9 @@ In this exercise, you will practice adding Bootstrap components to a webpage.
 ## Final Result
 
 <img src="./result.png" width=500>
+
+## Screenshots
+
+![2024-03-16_02-04_1](https://github.com/alokshandilya/meta-backend/assets/77057272/562c54f5-f0c6-4bc2-adad-653d377a7280)
+![2024-03-16_02-04](https://github.com/alokshandilya/meta-backend/assets/77057272/6d35546b-5ac0-4cd9-8851-7ff8b2659a67)
+
