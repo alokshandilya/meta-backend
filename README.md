@@ -5,7 +5,7 @@
 | Number | Course Name                                        | Status |
 | ------ | -------------------------------------------------- | ------ |
 | 1      | Introduction to back-end development               | ✅     |
-| 2      | Programming in python                              | ❌     |
+| 2      | Programming in python                              | ⏳     |
 | 3      | Version control                                    | ❌     |
 | 4      | Introduction to databases for back-end development | ❌     |
 | 5      | Django web framework                               | ❌     |
